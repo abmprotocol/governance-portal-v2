@@ -1,6 +1,6 @@
-import Maker from '@makerdao/dai';
-import GovernancePlugin from '@makerdao/dai-plugin-governance';
-import McdPlugin from '@makerdao/dai-plugin-mcd';
+import Maker from '@abmprotocl/dtbtc';
+import GovernancePlugin from '@abmprotocl/dotbtc-plugin-governance';
+import McdPlugin from '@abmprotocl/dotbtc-plugin-mcd';
 import LedgerPlugin from '@makerdao/dai-plugin-ledger-web';
 import TrezorPlugin from '@makerdao/dai-plugin-trezor-web';
 import { ethers } from 'ethers';

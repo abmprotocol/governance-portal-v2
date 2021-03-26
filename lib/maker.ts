@@ -1,8 +1,8 @@
-import Maker from '@makerdao/dai';
-import McdPlugin, { DAI } from '@makerdao/dai-plugin-mcd';
+import Maker from '@abmprotocl/dtbtc';
+import McdPlugin, { DAI } from '@abmprotocl/dotbtc-plugin-mcd';
 import LedgerPlugin from '@makerdao/dai-plugin-ledger-web';
 import TrezorPlugin from '@makerdao/dai-plugin-trezor-web';
-import GovernancePlugin, { MKR } from '@makerdao/dai-plugin-governance';
+import GovernancePlugin, { MKR } from '@abmprotocl/dotbtc-plugin-governance';
 import { Web3ReactPlugin } from './maker/web3react';
 
 import { SupportedNetworks, DEFAULT_NETWORK } from './constants';

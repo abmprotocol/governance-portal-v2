@@ -2,7 +2,7 @@
 import { useState, useMemo } from 'react';
 import useSWR from 'swr';
 import { Button, Flex, Close, Text, Box, Spinner, Link as ExternalLink, jsx } from 'theme-ui';
-import { Icon } from '@makerdao/dai-ui-icons';
+import { Icon } from '@abmprotocl/dotbtc-ui-icons';
 import shallow from 'zustand/shallow';
 import { useBreakpointIndex } from '@theme-ui/match-media';
 import { DialogOverlay, DialogContent } from '@reach/dialog';
