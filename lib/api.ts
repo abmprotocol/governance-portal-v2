@@ -108,7 +108,7 @@ const fsCacheGet = name => {
 const fsCacheSet = (name, data) => {
   const fs = require('fs'); // eslint-disable-line @typescript-eslint/no-var-requires
   const path = `/tmp/gov-portal-${getNetwork()}-${name}-${new Date().toISOString().substring(0, 10)}`;
-  fs.writeFileSync(path, data, err => console.error(err));
+  // fs.writeFileSync(path, data, err => console.error(err));
   fsCacheCache[path] = data;
 };
 
